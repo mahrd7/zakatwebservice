@@ -1,0 +1,105 @@
+<html> 
+<head>
+<title>Rumah Zakat Indonesia
+</title>
+</head>
+<BODY BACKGROUND = "bawah1.jpg">
+<table border = "1" BGCOLOR = "gray">
+<tr><th  WIDTH = "900" >
+	<TR><TD VALIGN = "TOP">	
+		<IMG src= "header.jpg" ALIGN = "top"
+		       VSPACE = "2" ALIGN = "top">
+	
+	<marquee><font color = "yellow" size = "5" face = "arial"> <H>"Mari Bersihkan Jiwa dan Harta dengan Berzakat"</H> </marquee></font>
+			<p STYLE = "border-style: double; border-color :red; border-width : ">
+			
+					<ul>
+					
+						<li><a href='index.html'><B>Home</B></a></li>
+												<li><a href='kami.html'><B>About US</B></a></li>
+						<li><a href='redflash.htm'><B>Contact Us</B></a></li>
+						
+					</ul>
+	          
+			</p>
+	
+	<div id='kanan'>
+				<div id='header-kanan'>
+				</div>
+				<div id='login'>
+					<form action='login.php' method='POST'>
+						<table align='right'>
+							<tr>
+								<td align='left' ><font color = "blue"><B>Username</B></font></td>
+							</tr>
+							<tr>
+								<td><input type='text' name='username' size='25'/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align='left' ><font color = "blue"><B>Password</B></font></td>
+							</tr>
+							<tr>
+								<td><input type='password' name='pass' size='25'/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align='right'><input type='submit' name='Login' value='Login'></td>										</tr>
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align='right'><a href='#'><B>Lupa password ?</B></a></td><br>
+								<td align='right'><a href='#'><B>Register</B></a><td>
+							</tr>
+						</table>
+					</form>
+					<p><?php if($_GET['error']==1){echo "Username dan password salah";}?></p>
+				</div>
+			</div>
+		</div>
+		<div id='footer'>
+		</div>
+	</div>
+	
+	
+<form action='client.php' method='post'>
+
+<table border='1' bgcolor = 'silver'>
+
+<tr>
+<td><font color = "blue" face = "verdana" size = "2"><B>Lokasi Rumah Zakat</B></font></td>
+<td><select name='Lokasi_Rumah_Zakat'><option value='Yogyakarta'>Yogyakarta</option>
+<option value='Aceh'>Aceh</option><option value='Medan'>Medan</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><font color = "blue" face = "verdana" size = "2"><B>Kategori Zakat</B></font></td>
+<td><select name='Kategori_Zakat'><option value='Mal'>Mal</option>
+<option value='Fitrah'>Fitrah</option>
+</select></td>
+</tr>
+<tr>
+<td><font color = "blue" face = "verdana" size = "2"><B>Nama Muzakki</B></font></td>
+<td><input name='Nama_Muzakki' type='text'/></td>
+<td><input type='submit' name='submit' value='cari' /></td>
+</tr>
+</table>
+
+
+</th>
+</TD></TR>
+
+</table>
+<IMG src= "bawah.jpg" ALIGN = "bottom">
+<VSPACE = "2" ALIGN = "center">
+</form>
+
+</body>
+
+</html>
